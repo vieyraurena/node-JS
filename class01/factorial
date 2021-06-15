@@ -1,0 +1,11 @@
+// Desarrolle un programa en RELPque, dado un número entero positivo, calcule y muestre su factorial. 
+// El factorial de un número se obtiene multiplicando todos los números enteros 
+// positivos que hay entre el 1 y ese número. El factorial de 0 es 1.
+
+function factorial (n) {
+let total = 1;
+  for (let index = 1; index <= n; index++) {
+    total = total * index;
+  }
+  return total;
+}
